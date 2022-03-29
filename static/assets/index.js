@@ -1,5 +1,5 @@
 var date = new Date()
-let display_date= "Date:" + date.toLocaleDateString()
+let display_date= "Fecha:" + date.toLocaleDateString()
 
 $(document).ready(function () {
     $("#display_date").html(display_date)
@@ -31,7 +31,7 @@ $(function () {
             }
         });
     });
-    //Write the code here for AJAX call
+    //Escribir el código para la llamada AJAX
 
 
 })
